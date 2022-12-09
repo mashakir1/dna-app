@@ -1,0 +1,38 @@
+.newLessonPlan {
+  width: 100%;
+}
+
+.cardWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: $spacing_m;
+  width: 100%;
+}
+
+.lessonPlanCard {
+  padding: $spacing-l $spacing-m;
+  width: 100%;
+
+  &-titles {
+    max-width: 190px;
+    text-align: center;
+
+    > * {
+      margin: 5px 0;
+    }
+  }
+
+  &:hover {
+    background-color: $colour_background_teal;
+    cursor: pointer;
+
+    .firstPageIcon path {
+      fill: $colour_ui_teal;
+    }
+
+    .firstPageIconWithBackground {
+      background-color: $colour_light_teal;
+    }
+  }
+}

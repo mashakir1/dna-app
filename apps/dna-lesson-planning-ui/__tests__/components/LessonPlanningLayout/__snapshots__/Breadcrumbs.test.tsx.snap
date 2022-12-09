@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Breadcrumbs should render the base breadcrumbs 1`] = `
+<div>
+  <nav
+    class="breadcrumbs flex"
+  >
+    <p
+      aria-label="choose-unit"
+      class="small breadcrumb active "
+    >
+      choose-unit
+    </p>
+    <p
+      aria-label="journey"
+      class="small breadcrumb  "
+    >
+      journey
+    </p>
+    <p
+      aria-label="plan-lesson"
+      class="small breadcrumb  "
+    >
+      plan-lesson
+    </p>
+    <p
+      aria-label="review"
+      class="small breadcrumb  "
+    >
+      review
+    </p>
+  </nav>
+</div>
+`;
+
+exports[`Breadcrumbs should render the updated breadcrumbs 1`] = `
+<div>
+  <nav
+    class="breadcrumbs flex"
+  >
+    <p
+      aria-label="choose-unit"
+      class="small breadcrumb active completed"
+    >
+      <div
+        class="completedTick"
+      >
+        <svg
+          fill="none"
+          height="30"
+          viewBox="0 0 30 30"
+          width="30"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            cx="15"
+            cy="15"
+            fill="white"
+            r="15"
+          />
+          <path
+            clip-rule="evenodd"
+            d="M22.5253 10.202C22.9158 10.5925 22.9158 11.2257 22.5253 11.6162L13.1503 20.9912C12.7598 21.3817 12.1266 21.3817 11.7361 20.9912L7.47472 16.7298C7.08419 16.3393 7.08419 15.7061 7.47472 15.3156C7.86524 14.9251 8.49841 14.9251 8.88893 15.3156L12.4432 18.8699L21.1111 10.202C21.5016 9.81146 22.1348 9.81146 22.5253 10.202Z"
+            fill="#30ccd6"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      choose-unit
+    </p>
+    <p
+      aria-label="journey"
+      class="small breadcrumb active "
+    >
+      journey
+    </p>
+    <p
+      aria-label="plan-lesson"
+      class="small breadcrumb  "
+    >
+      plan-lesson
+    </p>
+    <p
+      aria-label="review"
+      class="small breadcrumb  "
+    >
+      review
+    </p>
+  </nav>
+</div>
+`;

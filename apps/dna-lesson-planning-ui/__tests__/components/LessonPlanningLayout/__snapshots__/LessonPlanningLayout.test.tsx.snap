@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout should render the lesson planning layout 1`] = `
+<div>
+  <div
+    class="page"
+  >
+    <div
+      class="header flex justify-between items-center"
+    >
+      <nav
+        class="breadcrumbs flex"
+      >
+        <p
+          aria-label="choose-unit"
+          class="small breadcrumb active "
+        >
+          choose-unit
+        </p>
+        <p
+          aria-label="journey"
+          class="small breadcrumb  "
+        >
+          journey
+        </p>
+        <p
+          aria-label="plan-lesson"
+          class="small breadcrumb  "
+        >
+          plan-lesson
+        </p>
+        <p
+          aria-label="review"
+          class="small breadcrumb  "
+        >
+          review
+        </p>
+      </nav>
+      <span>
+        cancel
+      </span>
+    </div>
+    <div
+      class="container flex column gap-l"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,6 @@
+.feedback {
+  padding: $spacing-xs $spacing-s;
+  border: 1.5px solid adjust-color($colour_white, $alpha: -0.8);
+  border-radius: 100px;
+  margin-top: auto;
+}

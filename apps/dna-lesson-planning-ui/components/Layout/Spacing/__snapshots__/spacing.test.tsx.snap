@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar renders large height correctly 1`] = `
+<div>
+  <div
+    class="spacingL"
+  />
+</div>
+`;
+
+exports[`Sidebar renders small height correctly 1`] = `
+<div>
+  <div
+    class="spacingS"
+  />
+</div>
+`;

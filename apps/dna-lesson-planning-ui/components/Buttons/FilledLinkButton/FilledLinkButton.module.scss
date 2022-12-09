@@ -1,0 +1,19 @@
+.filledLinkButton {
+  padding: $spacing-ks $spacing-xl;
+  background-color: $colour_teal;
+  border: 1.5px transparent;
+  border-radius: 100px;
+  text-align: center;
+  min-height: 40px;
+
+  &:hover {
+    background-color: $colour_navy;
+    color: white;
+  }
+
+  &.disabled {
+    background-color: $colour_line_grey;
+    color: adjust-color($colour_body_copy, $alpha: -0.5);
+    pointer-events: none;
+  }
+}

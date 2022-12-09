@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`homepage matches snapshot 1`] = `
+<div>
+  <div
+    class="flex"
+  >
+    <div>
+      Sidebar
+    </div>
+    <div>
+      NewLessonPlanModal
+    </div>
+    <div
+      class="mainContent flex column gap-xl"
+    >
+      <div
+        class="flex items-center gap-l"
+      >
+        <h4>
+          my-lessons
+        </h4>
+        <button
+          type="button"
+        >
+          FilledButton
+        </button>
+      </div>
+      <div
+        class=" card emptyCard flex column items-center gap-m"
+      >
+        <div
+          class="iconWithBackground  flex"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M3.87868 1.87868C4.44129 1.31607 5.20435 1 6 1H14C14.2652 1 14.5196 1.10536 14.7071 1.29289L20.7071 7.29289C20.8946 7.48043 21 7.73478 21 8V20C21 20.7957 20.6839 21.5587 20.1213 22.1213C19.5587 22.6839 18.7957 23 18 23H6C5.20435 23 4.44129 22.6839 3.87868 22.1213C3.31607 21.5587 3 20.7957 3 20V4C3 3.20435 3.31607 2.44129 3.87868 1.87868ZM6 3C5.73478 3 5.48043 3.10536 5.29289 3.29289C5.10536 3.48043 5 3.73478 5 4V20C5 20.2652 5.10536 20.5196 5.29289 20.7071C5.48043 20.8946 5.73478 21 6 21H18C18.2652 21 18.5196 20.8946 18.7071 20.7071C18.8946 20.5196 19 20.2652 19 20V9H14C13.4477 9 13 8.55228 13 8V3H6ZM15 4.41421L17.5858 7H15V4.41421ZM7 9C7 8.44772 7.44772 8 8 8H10C10.5523 8 11 8.44772 11 9C11 9.55228 10.5523 10 10 10H8C7.44772 10 7 9.55228 7 9ZM7 13C7 12.4477 7.44772 12 8 12H16C16.5523 12 17 12.4477 17 13C17 13.5523 16.5523 14 16 14H8C7.44772 14 7 13.5523 7 13ZM7 17C7 16.4477 7.44772 16 8 16H16C16.5523 16 17 16.4477 17 17C17 17.5523 16.5523 18 16 18H8C7.44772 18 7 17.5523 7 17Z"
+              fill="#30CCD6"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </div>
+        <p>
+          no-lesson-plans-to-show
+        </p>
+        <p>
+          need-help
+        </p>
+      </div>
+      <div
+        class="flex justify-between"
+      >
+        <div
+          class="elementCard clickable flex column"
+        >
+          <div
+            class="elementCardHeader flex justify-between items-center"
+            style="background-color: rgb(35, 35, 255);"
+          >
+            <p>
+              <b>
+                Selection Grid
+              </b>
+            </p>
+            <svg />
+          </div>
+          <div
+            class="elementCardBody flex column justify-between"
+          >
+            <p>
+              This is an example of the card on the selection grid
+            </p>
+            <div
+              class="elementCardFooter flex justify-between items-center"
+            >
+              <p
+                class="duration button small"
+              >
+                <b>
+                  2160
+                   mins
+                </b>
+              </p>
+              <div
+                class="clickableIcon flex"
+              >
+                <svg
+                  fill="none"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M12.3333 5C8.28325 5 5 8.28325 5 12.3333C5 16.3834 8.28325 19.6667 12.3333 19.6667C16.3834 19.6667 19.6667 16.3834 19.6667 12.3333C19.6667 8.28325 16.3834 5 12.3333 5ZM3 12.3333C3 7.17868 7.17868 3 12.3333 3C17.488 3 21.6667 7.17868 21.6667 12.3333C21.6667 17.488 17.488 21.6667 12.3333 21.6667C7.17868 21.6667 3 17.488 3 12.3333ZM11.3333 9C11.3333 8.44772 11.781 8 12.3333 8H12.3417C12.894 8 13.3417 8.44772 13.3417 9C13.3417 9.55228 12.894 10 12.3417 10H12.3333C11.781 10 11.3333 9.55228 11.3333 9ZM12.3333 11.3333C12.8856 11.3333 13.3333 11.781 13.3333 12.3333V15.6667C13.3333 16.219 12.8856 16.6667 12.3333 16.6667C11.781 16.6667 11.3333 16.219 11.3333 15.6667V12.3333C11.3333 11.781 11.781 11.3333 12.3333 11.3333Z"
+                    fill="#30CCD6"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="elementCard  flex column"
+        >
+          <div
+            class="elementCardHeader flex justify-between items-center"
+            style="background-color: rgb(82, 33, 124);"
+          >
+            <p>
+              <b>
+                Selection Footer
+              </b>
+            </p>
+            <div
+              class="clickableIcon flex"
+            >
+              <svg
+                fill="none"
+                height="30"
+                viewBox="0 0 30 30"
+                width="30"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="15"
+                  cy="15"
+                  fill="#ffffff33"
+                  r="15"
+                />
+                <path
+                  clip-rule="evenodd"
+                  d="M9.01514 9.01512C9.30803 8.72223 9.78291 8.72223 10.0758 9.01512L15 13.9393L19.9242 9.01512C20.2171 8.72223 20.692 8.72223 20.9849 9.01512C21.2778 9.30802 21.2778 9.78289 20.9849 10.0758L16.0607 15L20.9849 19.9242C21.2778 20.2171 21.2778 20.692 20.9849 20.9849C20.692 21.2778 20.2171 21.2778 19.9242 20.9849L15 16.0607L10.0758 20.9849C9.78291 21.2778 9.30803 21.2778 9.01514 20.9849C8.72225 20.692 8.72225 20.2171 9.01514 19.9242L13.9394 15L9.01514 10.0758C8.72225 9.78289 8.72225 9.30802 9.01514 9.01512Z"
+                  fill="white"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            class="elementCardBody flex column justify-between"
+          >
+            <p>
+              This is an example of the card on the selection footer
+            </p>
+            <div
+              class="elementCardFooter flex justify-between items-center"
+            >
+              <p
+                class="duration button small"
+              >
+                <b>
+                  720
+                   mins
+                </b>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="elementCard  flex column"
+        >
+          <div
+            class="elementCardHeader flex justify-between items-center"
+            style="background-color: rgb(82, 33, 124);"
+          >
+            <p>
+              <b>
+                Review card
+              </b>
+            </p>
+            <svg />
+          </div>
+          <div
+            class="elementCardBody flex column justify-between"
+          >
+            <p>
+              This element will show on the review screen
+            </p>
+            <div
+              class="elementCardFooter flex justify-between items-center"
+            >
+              <p
+                class="duration button small"
+              >
+                <b>
+                  60
+                   mins
+                </b>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

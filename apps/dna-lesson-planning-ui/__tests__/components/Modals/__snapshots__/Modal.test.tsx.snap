@@ -1,0 +1,182 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal can hide a modal 1`] = `
+<div>
+  <div
+    class="modalContainer "
+  >
+    <div
+      class="modal "
+    >
+      <div
+        class="modalContent"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Modal handles the close button correctly 1`] = `
+<div>
+  <div
+    class="modalContainer visible"
+  >
+    <div
+      class="modal visible"
+    >
+      <div
+        class="modalContent"
+      />
+      <button
+        class="modalButton closeButton"
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M5.31542 5.31542C5.73599 4.89486 6.41786 4.89486 6.83842 5.31542L12 10.477L17.1616 5.31542C17.5821 4.89486 18.264 4.89486 18.6846 5.31542C19.1051 5.73599 19.1051 6.41786 18.6846 6.83842L13.523 12L18.6846 17.1616C19.1051 17.5821 19.1051 18.264 18.6846 18.6846C18.264 19.1051 17.5821 19.1051 17.1616 18.6846L12 13.523L6.83842 18.6846C6.41786 19.1051 5.73599 19.1051 5.31542 18.6846C4.89486 18.264 4.89486 17.5821 5.31542 17.1616L10.477 12L5.31542 6.83842C4.89486 6.41786 4.89486 5.73599 5.31542 5.31542Z"
+            fill="#30CCD6"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Modal renders an empty modal 1`] = `
+<div>
+  <div
+    class="modalContainer visible"
+  >
+    <div
+      class="modal visible"
+    >
+      <div
+        class="modalContent"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Modal renders content within the modal 1`] = `
+<div>
+  <div
+    class="modalContainer visible"
+  >
+    <div
+      class="modal visible"
+    >
+      <div
+        class="modalContent"
+      >
+        <span>
+          test
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Modal renders the close button 1`] = `
+<div>
+  <div
+    class="modalContainer visible"
+  >
+    <div
+      class="modal visible"
+    >
+      <div
+        class="modalContent"
+      />
+      <button
+        class="modalButton closeButton"
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M5.31542 5.31542C5.73599 4.89486 6.41786 4.89486 6.83842 5.31542L12 10.477L17.1616 5.31542C17.5821 4.89486 18.264 4.89486 18.6846 5.31542C19.1051 5.73599 19.1051 6.41786 18.6846 6.83842L13.523 12L18.6846 17.1616C19.1051 17.5821 19.1051 18.264 18.6846 18.6846C18.264 19.1051 17.5821 19.1051 17.1616 18.6846L12 13.523L6.83842 18.6846C6.41786 19.1051 5.73599 19.1051 5.31542 18.6846C4.89486 18.264 4.89486 17.5821 5.31542 17.1616L10.477 12L5.31542 6.83842C4.89486 6.41786 4.89486 5.73599 5.31542 5.31542Z"
+            fill="#30CCD6"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Paginated Modal first page has no buttons 1`] = `
+<div>
+  <div
+    class="modalContainer visible"
+  >
+    <div
+      class="modal visible"
+    >
+      <div
+        class="modalContent"
+      >
+        <span>
+          firstPage
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Paginated Modal second page has buttons which are clickable 1`] = `
+<div>
+  <div
+    class="modalContainer visible"
+  >
+    <div
+      class="modal visible"
+    >
+      <div
+        class="modalContent"
+      >
+        <span>
+          secondPage
+        </span>
+      </div>
+      <button
+        class="modalButton backButton"
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M11.1847 4L12.5066 5.48721L6.1141 11.1695H22V13.1593H6.11461L12.5066 18.8411L11.1847 20.3283L2 12.1642L11.1847 4Z"
+            fill="#30CCD6"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+`;

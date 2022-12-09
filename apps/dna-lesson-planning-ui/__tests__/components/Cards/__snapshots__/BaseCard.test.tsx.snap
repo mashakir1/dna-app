@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BaseCard should render a base card with text 1`] = `
+<div>
+  <div
+    class=" card "
+  >
+    <p>
+      BaseCard
+    </p>
+  </div>
+</div>
+`;
+
+exports[`BaseCard should render an empty base card 1`] = `
+<div>
+  <div
+    class=" card "
+  />
+</div>
+`;

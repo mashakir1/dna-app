@@ -1,0 +1,52 @@
+{
+  "extends": [
+    "../../.eslintrc.json",
+    "next",
+    "next/core-web-vitals",
+    "plugin:react-hooks/recommended",
+    "eslint:recommended",
+    "plugin:@nrwl/nx/react-typescript",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "ignorePatterns": ["*.config.js"],
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+      "rules": {
+        "@next/next/no-html-link-for-pages": [
+          "error",
+          "apps/dna-lesson-planning-ui/pages"
+        ]
+      }
+    }
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    "@next/next/no-html-link-for-pages": "off",
+    "@typescript-eslint/array-type": [
+      "error",
+      {
+        "default": "generic"
+      }
+    ],
+    "jsx-quotes": [
+      "error",
+      "prefer-double"
+    ],
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "react/button-has-type": "warn",
+    "react-hooks/exhaustive-deps": "warn",
+    "quotes": [
+      "error",
+      "double"
+    ]
+  },
+  "env": {
+    "jest": true
+  }
+}

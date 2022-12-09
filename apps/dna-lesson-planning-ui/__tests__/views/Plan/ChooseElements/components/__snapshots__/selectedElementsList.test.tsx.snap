@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectedElementList renders a populated list 1`] = `
+<div>
+  <div
+    class="selectedElementsList flex gap-s"
+  >
+    <div
+      data-testid="Dropbox"
+    />
+    <div
+      data-testid="Dropbox"
+    />
+    <div
+      data-testid="Dropbox"
+    />
+  </div>
+</div>
+`;
+
+exports[`SelectedElementList renders an empty list 1`] = `
+<div>
+  <div
+    class="selectedElementsList flex gap-s"
+  />
+</div>
+`;

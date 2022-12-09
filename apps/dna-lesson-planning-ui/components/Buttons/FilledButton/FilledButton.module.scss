@@ -1,0 +1,11 @@
+.filledButton {
+  padding: $spacing-s $spacing-xl;
+  background-color: $colour_teal;
+  border: none;
+  border-radius: 100px;
+
+  &:hover {
+    background-color: $colour_navy;
+    color: white;
+  }
+}

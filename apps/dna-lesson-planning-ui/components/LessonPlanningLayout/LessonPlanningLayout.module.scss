@@ -1,0 +1,11 @@
+.page {
+  background-color: $colour_background_grey;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 864px;
+  margin: 0 auto;
+  margin-top: $spacing-xxl;
+  padding-bottom: $spacing-xxl;
+}

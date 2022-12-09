@@ -1,0 +1,9 @@
+.footer {
+  bottom: 0;
+  position: fixed;
+  min-height: 202px;
+  width: 100%;
+  padding: $spacing_l;
+  background-color: $colour_white;
+  box-shadow: 0 -10px 30px adjust-color($colour_navy, $alpha: -0.8);
+}

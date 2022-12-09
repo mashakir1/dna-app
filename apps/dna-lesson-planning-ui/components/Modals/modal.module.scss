@@ -1,0 +1,44 @@
+//TODO check % sizes
+.modal {
+  min-height: 400px;
+  min-width: 620px;
+  background-color: $colour_white;
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  border-radius: 16px;
+  display: flex;
+  padding: $spacing-l;
+}
+
+.modalContent {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.modal .modalButton {
+  background-color: $colour_white;
+  border: none;
+
+  path {
+    fill: $colour_dark_text;
+  }
+}
+
+.modal .closeButton {
+  position: absolute;
+  right: $spacing-l;
+  top: $spacing-l;
+}
+
+.modal .backButton {
+  position: absolute;
+  left: $spacing-l;
+  top: $spacing-l;
+}
+
+.visible {
+  visibility: visible;
+  opacity: 1;
+}

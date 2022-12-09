@@ -1,0 +1,29 @@
+.reactSelect__control {
+  display: flex;
+  min-width: 200px;
+  padding: $spacing-ks $spacing-xs $spacing-ks $spacing-m;
+  background-color: $colour_white !important;
+  border: $colour_line_grey solid 1px !important;
+
+  & > * {
+    font-family: DMSans-Regular;
+    font-weight: 400;
+    font-size: $type-size-p-small;
+    line-height: 22px;
+  }
+}
+
+.reactSelect__menu > * {
+  font-family: DMSans-Regular;
+  font-weight: 400;
+  font-size: $type-size-p-small;
+  line-height: 22px;
+}
+
+.reactSelect__control--is-disabled {
+  background-color: adjust-color($colour_line_grey, $alpha: -0.7) !important;
+
+  & > * {
+    opacity: 30%;
+  }
+}

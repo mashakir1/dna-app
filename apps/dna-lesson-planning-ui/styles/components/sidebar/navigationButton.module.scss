@@ -1,0 +1,20 @@
+.sidebarButton {
+  padding: $spacing-xs $spacing-s;
+
+  span {
+    font-family: Montserrat-Regular;
+    font-weight: 400;
+    color: $colour_white;
+    margin-left: $spacing-xs;
+  }
+}
+
+.navigationButton {
+  opacity: 50%;
+}
+
+.highlighted {
+  background-color: adjust-color($colour_light_teal, $alpha: -0.8);
+  opacity: 100%;
+  border-radius: 6px;
+}

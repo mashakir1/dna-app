@@ -1,0 +1,34 @@
+{
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "name": "dna-lesson-planning-ui-e2e",
+  "projectType": "application",
+  "sourceRoot": "apps/dna-lesson-planning-ui-e2e/src",
+  "targets": {
+    "debug": {
+      "executor": "@nx-extend/playwright:test",
+      "options": {
+        "debug": true,
+        "headed": true
+      }
+    },
+    "run:local": {
+      "executor": "@nx-extend/playwright:test",
+      "options": {
+        "project": "local_regression"
+      }
+    },
+    "run:staging": {
+      "executor": "@nx-extend/playwright:test",
+      "options": {
+        "project": "staging_regression"
+      }
+    },
+    "run:ci-regression": {
+      "executor": "@nx-extend/playwright:test",
+      "options": {
+        "project": "pipeline_regression"
+      }
+    }
+  },
+  "tags": []
+}

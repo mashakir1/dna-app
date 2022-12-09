@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar renders correctly 1`] = `
+<div>
+  <div
+    class="sidebar"
+  >
+    <div
+      class="sidebarContent"
+    >
+      <div>
+        NordAngliaLogo
+      </div>
+      <div>
+        Spacing
+      </div>
+      <div>
+        NavigationButtonList
+      </div>
+      <div>
+        IconLinkButton
+      </div>
+    </div>
+  </div>
+</div>
+`;

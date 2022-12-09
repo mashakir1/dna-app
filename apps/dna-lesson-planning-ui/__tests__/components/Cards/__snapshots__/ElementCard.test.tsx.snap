@@ -1,0 +1,464 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ElementCard should change headerColour when selected 1`] = `
+<div>
+  <div
+    class="elementCard  flex column"
+  >
+    <div
+      class="elementCardHeader flex justify-between items-center"
+      style="background-color: rgb(48, 204, 214);"
+    >
+      <p>
+        <b>
+          testTitle
+        </b>
+      </p>
+      <svg />
+    </div>
+    <div
+      class="elementCardBody flex column justify-between"
+    >
+      <p>
+        testText
+      </p>
+      <div
+        class="elementCardFooter flex justify-between items-center"
+      >
+        <p
+          class="duration button small"
+        >
+          <b>
+            0
+             mins
+          </b>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ElementCard should only trigger crossOnClick when clicking cross while both onClicks are present 1`] = `
+<div>
+  <div
+    class="elementCard clickable flex column"
+  >
+    <div
+      class="elementCardHeader flex justify-between items-center"
+      style="background-color: rgba(255, 255, 255, 0.2);"
+    >
+      <p>
+        <b>
+          testTitle
+        </b>
+      </p>
+      <div
+        class="clickableIcon flex"
+      >
+        <div
+          data-testid="closeElement"
+        />
+      </div>
+    </div>
+    <div
+      class="elementCardBody flex column justify-between"
+    >
+      <p>
+        testText
+      </p>
+      <div
+        class="elementCardFooter flex justify-between items-center"
+      >
+        <p
+          class="duration button small"
+        >
+          <b>
+            0
+             mins
+          </b>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ElementCard should only trigger infoOnClick when clicking info while both onClicks are present 1`] = `
+<div>
+  <div
+    class="elementCard clickable flex column"
+  >
+    <div
+      class="elementCardHeader flex justify-between items-center"
+      style="background-color: rgba(255, 255, 255, 0.2);"
+    >
+      <p>
+        <b>
+          testTitle
+        </b>
+      </p>
+      <div
+        data-testid="closeElement"
+      />
+    </div>
+    <div
+      class="elementCardBody flex column justify-between"
+    >
+      <p>
+        testText
+      </p>
+      <div
+        class="elementCardFooter flex justify-between items-center"
+      >
+        <p
+          class="duration button small"
+        >
+          <b>
+            0
+             mins
+          </b>
+        </p>
+        <div
+          class="clickableIcon flex"
+        >
+          <div
+            data-testid="infoIcon"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ElementCard should render a basic ElementCard 1`] = `
+<div>
+  <div
+    class="elementCard  flex column"
+  >
+    <div
+      class="elementCardHeader flex justify-between items-center"
+      style="background-color: rgba(255, 255, 255, 0.2);"
+    >
+      <p>
+        <b>
+          testTitle
+        </b>
+      </p>
+      <svg />
+    </div>
+    <div
+      class="elementCardBody flex column justify-between"
+    >
+      <p>
+        testText
+      </p>
+      <div
+        class="elementCardFooter flex justify-between items-center"
+      >
+        <p
+          class="duration button small"
+        >
+          <b>
+            0
+             mins
+          </b>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ElementCard should show cross if selected, hover and has an onClick 1`] = `
+<div>
+  <div
+    class="elementCard clickable flex column"
+  >
+    <div
+      class="elementCardHeader flex justify-between items-center"
+      style="background-color: rgb(48, 204, 214);"
+    >
+      <p>
+        <b>
+          testTitle
+        </b>
+      </p>
+      <div
+        data-testid="emptyTick"
+      />
+    </div>
+    <div
+      class="elementCardBody flex column justify-between"
+    >
+      <p>
+        testText
+      </p>
+      <div
+        class="elementCardFooter flex justify-between items-center"
+      >
+        <p
+          class="duration button small"
+        >
+          <b>
+            0
+             mins
+          </b>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ElementCard should show cross when stickyCross 1`] = `
+<div>
+  <div
+    class="elementCard  flex column"
+  >
+    <div
+      class="elementCardHeader flex justify-between items-center"
+      style="background-color: rgba(255, 255, 255, 0.2);"
+    >
+      <p>
+        <b>
+          testTitle
+        </b>
+      </p>
+      <div
+        data-testid="closeElement"
+      />
+    </div>
+    <div
+      class="elementCardBody flex column justify-between"
+    >
+      <p>
+        testText
+      </p>
+      <div
+        class="elementCardFooter flex justify-between items-center"
+      >
+        <p
+          class="duration button small"
+        >
+          <b>
+            0
+             mins
+          </b>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ElementCard should show tick if hover and has an onClick 1`] = `
+<div>
+  <div
+    class="elementCard clickable flex column"
+  >
+    <div
+      class="elementCardHeader flex justify-between items-center"
+      style="background-color: rgba(255, 255, 255, 0.2);"
+    >
+      <p>
+        <b>
+          testTitle
+        </b>
+      </p>
+      <svg />
+    </div>
+    <div
+      class="elementCardBody flex column justify-between"
+    >
+      <p>
+        testText
+      </p>
+      <div
+        class="elementCardFooter flex justify-between items-center"
+      >
+        <p
+          class="duration button small"
+        >
+          <b>
+            0
+             mins
+          </b>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ElementCard should show tick if selected and has an onClick 1`] = `
+<div>
+  <div
+    class="elementCard clickable flex column"
+  >
+    <div
+      class="elementCardHeader flex justify-between items-center"
+      style="background-color: rgb(48, 204, 214);"
+    >
+      <p>
+        <b>
+          testTitle
+        </b>
+      </p>
+      <div
+        data-testid="emptyTick"
+      />
+    </div>
+    <div
+      class="elementCardBody flex column justify-between"
+    >
+      <p>
+        testText
+      </p>
+      <div
+        class="elementCardFooter flex justify-between items-center"
+      >
+        <p
+          class="duration button small"
+        >
+          <b>
+            0
+             mins
+          </b>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ElementCard should trigger crossOnClick when clicking cross 1`] = `
+<div>
+  <div
+    class="elementCard  flex column"
+  >
+    <div
+      class="elementCardHeader flex justify-between items-center"
+      style="background-color: rgba(255, 255, 255, 0.2);"
+    >
+      <p>
+        <b>
+          testTitle
+        </b>
+      </p>
+      <div
+        class="clickableIcon flex"
+      >
+        <div
+          data-testid="closeElement"
+        />
+      </div>
+    </div>
+    <div
+      class="elementCardBody flex column justify-between"
+    >
+      <p>
+        testText
+      </p>
+      <div
+        class="elementCardFooter flex justify-between items-center"
+      >
+        <p
+          class="duration button small"
+        >
+          <b>
+            0
+             mins
+          </b>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ElementCard should trigger infoOnClick when clicking info 1`] = `
+<div>
+  <div
+    class="elementCard  flex column"
+  >
+    <div
+      class="elementCardHeader flex justify-between items-center"
+      style="background-color: rgba(255, 255, 255, 0.2);"
+    >
+      <p>
+        <b>
+          testTitle
+        </b>
+      </p>
+      <svg />
+    </div>
+    <div
+      class="elementCardBody flex column justify-between"
+    >
+      <p>
+        testText
+      </p>
+      <div
+        class="elementCardFooter flex justify-between items-center"
+      >
+        <p
+          class="duration button small"
+        >
+          <b>
+            0
+             mins
+          </b>
+        </p>
+        <div
+          class="clickableIcon flex"
+        >
+          <div
+            data-testid="infoIcon"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ElementCard should trigger onClick when clicked 1`] = `
+<div>
+  <div
+    class="elementCard clickable flex column"
+  >
+    <div
+      class="elementCardHeader flex justify-between items-center"
+      style="background-color: rgba(255, 255, 255, 0.2);"
+    >
+      <p>
+        <b>
+          testTitle
+        </b>
+      </p>
+      <svg />
+    </div>
+    <div
+      class="elementCardBody flex column justify-between"
+    >
+      <p>
+        testText
+      </p>
+      <div
+        class="elementCardFooter flex justify-between items-center"
+      >
+        <p
+          class="duration button small"
+        >
+          <b>
+            0
+             mins
+          </b>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

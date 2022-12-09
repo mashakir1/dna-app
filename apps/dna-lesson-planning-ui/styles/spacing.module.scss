@@ -1,0 +1,21 @@
+@use 'sass:math';
+
+$spacing-baseline: 1rem * 0.75; // 12px
+$layout-break: 960px;
+
+// Nord Anglia global Spacing scale
+$spacing-xs: math.div($spacing-baseline, 2); // 6px
+$spacing-ks: $spacing-baseline * 0.75; // 9px
+$spacing-s: $spacing-baseline; // 12px
+$spacing-m: $spacing-baseline * 2; // 24px
+$spacing-l: $spacing-baseline * 3; // 36px
+$spacing-xl: $spacing-baseline * 4; // 48px
+$spacing-xxl: $spacing-baseline * 5; // 60px
+$spacing-3xl: $spacing-baseline * 6; // 72px
+
+// Z-index master list
+$z-index-menu: 100;
+$z-index-overlay: 110;
+$z-index-tooltip: 120;
+$z-index-connection-status: 130;
+$z-index-error-message-box: 140;

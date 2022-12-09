@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IconLinkButton should render button with back arrow 1`] = `
+<div>
+  <svg
+    fill="none"
+    height="24"
+    viewBox="0 0 24 24"
+    width="24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      clip-rule="evenodd"
+      d="M11.1847 4L12.5066 5.48721L6.1141 11.1695H22V13.1593H6.11461L12.5066 18.8411L11.1847 20.3283L2 12.1642L11.1847 4Z"
+      fill="#30CCD6"
+      fill-rule="evenodd"
+    />
+  </svg>
+  <span>
+    IconLinkButton
+  </span>
+</div>
+`;
+
+exports[`IconLinkButton should render button with book icon 1`] = `
+<div>
+  <svg
+    fill="none"
+    height="32"
+    viewBox="0 0 32 32"
+    width="32"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      clip-rule="evenodd"
+      d="M8.66668 3.66666C8.04784 3.66666 7.45435 3.9125 7.01676 4.35008C6.57918 4.78767 6.33334 5.38116 6.33334 6V22.3485C7.02475 21.9067 7.83334 21.6667 8.66668 21.6667H25.6667V3.66666H8.66668ZM27.6667 2.66666C27.6667 2.11438 27.219 1.66666 26.6667 1.66666H8.66668C7.51741 1.66666 6.41521 2.12321 5.60255 2.93587C4.78989 3.74853 4.33334 4.85073 4.33334 6V26C4.33334 27.1493 4.78989 28.2515 5.60255 29.0641C6.41521 29.8768 7.51741 30.3333 8.66668 30.3333H26.6667C27.219 30.3333 27.6667 29.8856 27.6667 29.3333V2.66666ZM25.6667 23.6667H8.66668C8.04784 23.6667 7.45435 23.9125 7.01676 24.3501C6.57918 24.7877 6.33334 25.3812 6.33334 26C6.33334 26.6188 6.57918 27.2123 7.01676 27.6499C7.45434 28.0875 8.04784 28.3333 8.66668 28.3333H25.6667V23.6667Z"
+      fill="#30CCD6"
+      fill-rule="evenodd"
+    />
+  </svg>
+  <span>
+    IconLinkButton
+  </span>
+</div>
+`;

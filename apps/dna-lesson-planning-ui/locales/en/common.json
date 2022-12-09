@@ -1,0 +1,23 @@
+{
+  "my-lessons": "My lessons",
+  "new-lesson-plan-button-text": "New Plan",
+  "lesson-data": "Lesson Data",
+  "feedback": "Feedback",
+  "no-lesson-plans-to-show": "You do not currently have any lessons planned",
+  "need-help": "Need help? Please visit <0>Nord Anglia University</0>",
+  "select": "Select",
+  "cancel": "Cancel",
+  "back": "Back",
+  "overview": "Overview",
+  "plan": "Plan",
+  "new-lesson-plan-selection-1": "How do you want to plan?",
+  "new-lesson-plan-selection-2": "Who are you planning for?",
+  "planning-choice": "How do you want to plan?",
+  "plan-by-subject-title": "Subject",
+  "plan-by-subject-subtitle": "Plan lessons by selecting from a list of subjects",
+  "plan-by-learner-ambition-title": "Learner Ambition",
+  "plan-by-learner-ambition-subtitle": "Plan lessons by using one of the six Learner Ambitions",
+  "year-and-subject-choice-title": "Who are you planning for?",
+  "select-year-placeholder": "Select year / grade",
+  "select-subject-placeholder": "Select subject"
+}

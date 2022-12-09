@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`firstPage matches snapshot 1`] = `
+<div>
+  <div
+    class="newLessonPlan flex column items-center"
+  >
+    <h6>
+      planning-choice
+    </h6>
+    <div
+      class="spacingXXL"
+    />
+    <div
+      class="cardWrapper"
+    >
+      <div
+        class="bordered card lessonPlanCard flex column items-center"
+      >
+        <div
+          class="iconWithBackground firstPageIconWithBackground flex"
+        >
+          <svg
+            class="firstPageIcon"
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M1 4C1 3.44772 1.44772 3 2 3H8C9.32608 3 10.5979 3.52678 11.5355 4.46447C11.7038 4.63274 11.8589 4.81178 12 4.99997C12.1411 4.81178 12.2962 4.63274 12.4645 4.46447C13.4021 3.52678 14.6739 3 16 3H22C22.5523 3 23 3.44772 23 4V19C23 19.5523 22.5523 20 22 20H15C14.4696 20 13.9609 20.2107 13.5858 20.5858C13.2107 20.9609 13 21.4696 13 22C13 22.5523 12.5523 23 12 23C11.4477 23 11 22.5523 11 22C11 21.4696 10.7893 20.9609 10.4142 20.5858C10.0391 20.2107 9.53043 20 9 20H2C1.44772 20 1 19.5523 1 19V4ZM11 18.5359C10.3971 18.1878 9.70823 18 9 18H3V5H8C8.79565 5 9.55871 5.31607 10.1213 5.87868C10.6839 6.44129 11 7.20435 11 8V18.5359ZM13 18.5359C13.6029 18.1878 14.2918 18 15 18H21V5H16C15.2044 5 14.4413 5.31607 13.8787 5.87868C13.3161 6.44129 13 7.20435 13 8V18.5359Z"
+              fill="#30CCD6"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </div>
+        <div
+          class="spacingM"
+        />
+        <div
+          class="lessonPlanCard-titles"
+        >
+          <p
+            class="large"
+          >
+            <b>
+              plan-by-subject-title
+            </b>
+          </p>
+          <div
+            class="spacingXS"
+          />
+          <p
+            class="small"
+          >
+            plan-by-subject-subtitle
+          </p>
+        </div>
+      </div>
+      <div
+        class="bordered card lessonPlanCard flex column items-center"
+      >
+        <div
+          class="iconWithBackground firstPageIconWithBackground flex"
+        >
+          <svg
+            class="firstPageIcon"
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M12.4196 3C12.7456 3 13.0432 3.18503 13.1875 3.4773L15.6345 8.43465L21.1067 9.2345C21.4292 9.28163 21.697 9.50771 21.7975 9.81771C21.898 10.1277 21.8138 10.4679 21.5804 10.6953L17.6214 14.5513L18.5557 19.9989C18.6108 20.3202 18.4787 20.6449 18.215 20.8365C17.9513 21.0281 17.6017 21.0533 17.3131 20.9016L12.4196 18.3281L7.5261 20.9016C7.23759 21.0533 6.88796 21.0281 6.62423 20.8365C6.3605 20.6449 6.22842 20.3202 6.28352 19.9989L7.21785 14.5513L3.25886 10.6953C3.02541 10.4679 2.94126 10.1277 3.04177 9.81771C3.14229 9.50771 3.41004 9.28163 3.7325 9.2345L9.20475 8.43465L11.6517 3.4773C11.796 3.18503 12.0937 3 12.4196 3ZM12.4196 5.79099L10.5414 9.59597C10.4168 9.84845 10.176 10.0235 9.89742 10.0643L5.6961 10.6783L8.73548 13.6387C8.93746 13.8354 9.02965 14.119 8.98199 14.3969L8.26488 18.578L12.021 16.6027C12.2706 16.4715 12.5687 16.4715 12.8182 16.6027L16.5744 18.578L15.8573 14.3969C15.8096 14.119 15.9018 13.8354 16.1038 13.6387L19.1432 10.6783L14.9418 10.0643C14.6632 10.0235 14.4224 9.84845 14.2978 9.59597L12.4196 5.79099Z"
+              fill="#30CCD6"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </div>
+        <div
+          class="spacingM"
+        />
+        <div
+          class="lessonPlanCard-titles"
+        >
+          <p
+            class="large"
+          >
+            <b>
+              plan-by-learner-ambition-title
+            </b>
+          </p>
+          <div
+            class="spacingXS"
+          />
+          <p
+            class="small"
+          >
+            plan-by-learner-ambition-subtitle
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

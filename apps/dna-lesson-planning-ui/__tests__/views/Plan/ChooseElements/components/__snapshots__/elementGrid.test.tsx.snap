@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ElementGrid empty grid matches snapshot 1`] = `
+<div>
+  <div
+    class="flex gap-m wrap"
+  />
+</div>
+`;
+
+exports[`ElementGrid populated grid matches snapshot 1`] = `
+<div>
+  <div
+    class="flex gap-m wrap"
+  >
+    <div
+      data-testid="testId1"
+    />
+    <div
+      data-testid="testId2"
+    />
+    <div
+      data-testid="testId3"
+    />
+  </div>
+</div>
+`;

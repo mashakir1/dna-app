@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OutlineLinkButton should render button with back arrow 1`] = `
+<div>
+  <span>
+    OutlineLinkButton
+  </span>
+</div>
+`;
+
+exports[`OutlineLinkButton should render button with book icon 1`] = `
+<div>
+  <span>
+    OutlineLinkButton
+  </span>
+</div>
+`;

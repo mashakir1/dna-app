@@ -1,0 +1,13 @@
+.outlineLinkButton {
+  padding: $spacing-ks $spacing-m;
+  border: 1.5px solid $colour_dark_text;
+  border-radius: 25px;
+  text-align: center;
+
+  &.disabled {
+    background-color: $colour_line_grey;
+    color: adjust-color($colour_body_copy, $alpha: -0.5);
+    border-color: $colour_line_grey;
+    pointer-events: none;
+  }
+}

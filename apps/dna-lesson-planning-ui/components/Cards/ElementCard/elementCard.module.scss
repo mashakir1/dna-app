@@ -1,0 +1,74 @@
+.elementCard {
+  height: 130px;
+  min-width: 130px;
+  max-width: 130px;
+
+  &.clickable {
+    cursor: pointer;
+
+    &:hover {
+      .elementCardBody {
+        background-color: $colour_background_grey;
+      }
+    }
+  }
+
+  & svg {
+    height: 20px;
+    width: 20px;
+  }
+
+  // TODO: sort out text wrapping on cards
+  .elementCardBody {
+    overflow: hidden;
+    white-space: pre-wrap;
+    text-overflow: ellipsis;
+  }
+}
+
+.elementCardHeader {
+  border-radius: 6px 6px 0 0;
+  padding: $spacing_xs $spacing-ks;
+  background-color: $colour_ui_teal;
+
+  & p {
+    line-height: 0;
+
+    & > b {
+      font-size: $type_size_xs;
+      font-family: Montserrat-SemiBold;
+      font-weight: 600;
+      line-height: 12px;
+      color: $colour_white;
+    }
+  }
+}
+
+.elementCardBody {
+  height: 100%;
+  padding: $spacing_ks;
+  background-color: $colour_white;
+  border: $colour_line_grey solid 1px;
+  border-top: none;
+  border-radius: 0 0 6px 6px;
+
+  & p {
+    font-size: $type_size_s;
+    line-height: 16px;
+  }
+
+  & svg:hover path {
+    fill: $colour_dark_text
+  }
+}
+
+.elementCardFooter {
+  p {
+    line-height: 20px;
+  }
+}
+
+.duration {
+  color: adjust-color($colour_body_copy, $alpha: -0.5);
+  text-transform: none;
+}

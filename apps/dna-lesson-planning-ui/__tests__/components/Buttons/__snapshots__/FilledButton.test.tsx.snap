@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilledButton should render standard button 1`] = `
+<div>
+  <button
+    class="filledButton "
+    type="button"
+  >
+    <span>
+      FilledButton
+    </span>
+  </button>
+</div>
+`;

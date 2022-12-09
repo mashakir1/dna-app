@@ -1,0 +1,90 @@
+.breadcrumbs {
+  list-style: none;
+  overflow: hidden;
+  border: 1px solid $colour_line_grey;
+  width: fit-content;
+  padding: 0;
+  margin: 0;
+  border-radius: 25px;
+}
+
+.breadcrumb {
+  text-decoration: none;
+  padding: $spacing-ks $spacing-xxl;
+  background: white;
+  position: relative;
+  display: block;
+
+  &::after {
+    content: ' ';
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent; /* Go big on the size, and let overflow hide */
+    border-bottom: 25px solid transparent;
+    border-left: 10px solid white;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    left: 100%;
+    z-index: 2;
+  }
+
+  &::before {
+    content: ' ';
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 10px solid $colour_line_grey;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    margin-left: 1px;
+    left: 100%;
+    z-index: 1;
+  }
+
+  &.active {
+    background-color: $colour_light_teal;
+    border-color: $colour_light_teal;
+
+    &::before {
+      border-left-color: white;
+    }
+    &::after {
+      border-left-color: $colour_light_teal;
+    }
+  }
+  &.completed {
+    background-color: $colour_teal;
+    border-color: $colour_teal;
+
+    &::before {
+      border-left-color: white;
+    }
+
+    &::after {
+      border-left-color: $colour_teal;
+    }
+
+    .completedTick {
+      position: absolute;
+      left: 20px;
+      border-radius: 25px;
+      top: 50%;
+      transform: translate(0, -45%);
+    }
+  }
+
+  &:first-of-type {
+    padding-left: $spacing-xl;
+
+    &.completed {
+      .completedTick {
+        left: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+$mark_beginning: #f06a7c;
+$mark_developing: #fecf59;
+$mark_meeting: #c4e14e;
+$mark_exceeding: #5ded8e;
+
+$colour_background_grey: #ebeef1;
+$colour_background_student: #fdfcf9;
+$colour_background_teal: #e8f8fb;
+$colour_background_homepage: #e5e5e5;
+$colour_light_teal: #b4ebf5;
+$colour_teal: #30ccd6;
+$colour_navy: #003057;
+$colour_peach: #f0b4a0;
+$colour_bright_yellow: #ffcb00;
+$colour_dark_yellow: #e1aa28;
+$colour_bright_red: #ff3750;
+$colour_dark_red: #b30018;
+$colour_ui_teal: #177584;
+$colour_warm_white: #faf5ed;
+$colour_dark_teal: #1e96a5;
+
+$colour_validation_help: #b4e8f2;
+$colour_validation_error: #ffd7dc;
+$colour_validation_warning: #fd6;
+$colour_white: #fff;
+$colour_dark_text: #111a29;
+$colour_body_copy: #455664;
+$colour_dark_grey: #6a7883;
+$colour_line_grey: #ccd5dd;
+
+$colour_input_border: #7b99a7;
+$colour_input_placeholder: #6a7883;
+
+$colour_green: #2f9f84;
+$colour_radio_red: #d7526a;
+
+$colour_form_field_borders: #8298a4;
+
+$colour_warning_orange: #dea926;
+$colour_warning_yellow: #fd6;
+$colour_warning: #ffdd66;
+
+$themeColours: (
+	"teal": $colour_teal,
+	"navy": $colour_navy,
+	"red": $colour_bright_red,
+	"yellow": $colour_bright_yellow,
+	"green": $colour_green,
+);
+
+$marks: (
+	"beginning": $mark_beginning,
+	"developing": $mark_developing,
+	"meeting": $mark_meeting,
+	"exceeding": $mark_exceeding,
+);
+
+$scoreColour: (
+	"0": #ee576a,
+	"33": #edc664,
+	"50": #ede664,
+	"66": #c4e14e,
+	"100": #5bd384,
+);

@@ -1,0 +1,116 @@
+trigger:
+  branches:
+    include:
+      - main
+
+pr: none
+
+name: $(Build.DefinitionName)-$(Build.BuildId)
+pool: DNA Build Agent
+
+variables:
+  imageRepository: docker-images/dna-lesson-planning-ui
+  working-dir: './'
+  tag: '$(Build.BuildId)'
+
+stages:
+  - stage:
+    displayName: Build
+    jobs:
+      - job: setup
+        displayName: 'Agent Setup'
+        steps:
+          - script: sudo apt-get install -y zip
+            displayName: Install zip
+
+          - task: NodeTool@0
+            inputs:
+              versionSpec: '16.x'
+
+          - task: DockerInstaller@0
+            displayName: Install Docker CLI
+
+          # for test coverage report generation
+          - task: UseDotNet@2
+            inputs:
+              packageType: 'runtime'
+              version: '3.1.x'
+
+          - task: Bash@3
+            displayName: 'Add private endpoints to hosts file'
+            inputs:
+              targetType: inline
+              script: |
+                echo '10.255.112.4 use2-kubernetes-n1-63407c3b.privatelink.eastus2.azmk8s.io' | sudo tee -a /etc/hosts
+                echo '10.131.8.4 use2-kubernetes-p1-a2f38dc0.privatelink.eastus2.azmk8s.io' | sudo tee -a /etc/hosts
+                echo '10.9.8.159 chsh-kubernetes-p1-21577259.privatelink.chinaeast2.cx.prod.service.azk8s.cn' | sudo tee -a /etc/hosts
+                echo '10.210.112.4 a-chsh-aks-n1-3876de32.privatelink.chinaeast2.cx.prod.service.azk8s.cn' | sudo tee -a /etc/hosts
+                echo '10.230.104.7 anlweacrn1.azurecr.io' | sudo tee -a /etc/hosts
+                echo '10.75.12.10 anlweacrp1.azurecr.io' | sudo tee -a /etc/hosts
+                echo '10.210.104.9 achshacrn1.azurecr.cn' | sudo tee -a /etc/hosts
+                echo "contents of /etc/hosts:"
+                sudo cat /etc/hosts
+
+
+      - job: build
+        dependsOn: setup
+        displayName: 'Build'
+        steps:
+          - script: DOCKER_BUILDKIT=1 docker build -t dna-lesson-planning-ui-runner -f Dockerfile .
+            workingDirectory: $(working-dir)
+            displayName: 'Build ui image'
+
+      - job: test
+        dependsOn: build
+        displayName: 'Test'
+        steps:
+          - script: DOCKER_BUILDKIT=1 docker build -t lesson-planning-ui-tester --target tester -f Dockerfile .
+            workingDirectory: $(working-dir)
+            displayName: 'Build testing image'
+
+          - script: docker run -v $(System.DefaultWorkingDirectory)/outputs:/app/outputs lesson-planning-ui-tester yarn lint
+            displayName: 'ESLint'
+
+          - script: docker run -v $(System.DefaultWorkingDirectory)/outputs:/app/outputs lesson-planning-ui-tester yarn test
+            displayName: 'Unit Tests'
+
+          # TODO: add other tests here
+
+          - script: sudo rm -rf ./outputs
+            condition: always()
+            displayName: 'Cleanup'
+
+      - job: publish
+        displayName: 'Create artifact'
+        dependsOn: test
+        steps:
+          - task: ArchiveFiles@1
+            displayName: 'Archive files'
+            inputs:
+              rootFolder: '$(System.DefaultWorkingDirectory)'
+              includeRootFolder: false
+
+          - task: DeleteFiles@1
+            displayName: 'Cleanup artifact staging folder'
+            inputs:
+              SourceFolder: $(Build.ArtifactStagingDirectory)
+              Contents: |
+                ArtifactsToBePublished/*
+
+
+          - task: CopyFiles@2
+            displayName: 'Copy files to publish folder'
+            inputs:
+              SourceFolder: '$(Build.ArtifactStagingDirectory)'
+              Contents: '$(Build.BuildId).zip'
+              TargetFolder: '$(Build.ArtifactStagingDirectory)/ArtifactsToBePublished'
+
+          - task: PublishBuildArtifacts@1
+            displayName: 'Publish artifact'
+            inputs:
+              ArtifactName: 'build-$(Build.BuildId)'
+              PathtoPublish: '$(Build.ArtifactStagingDirectory)/ArtifactsToBePublished/$(Build.BuildId).zip'
+
+          - script: sudo rm -rf out .next node_modules
+            condition: always()
+            displayName: 'Cleanup'

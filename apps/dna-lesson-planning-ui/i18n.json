@@ -1,0 +1,9 @@
+{
+  "locales": ["en"],
+  "defaultLocale": "en",
+  "pages": {
+    "*": ["common"],
+    "/404": ["404"],
+    "rgx:^/plan/": ["breadcrumbs", "lessonPlanning"]
+  }
+}

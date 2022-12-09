@@ -1,0 +1,15 @@
+.unitCard {
+  padding: $spacing-l $spacing-m;
+
+  &-titles {
+    > * {
+      margin: 5px 0;
+    }
+  }
+
+  &-icon {
+    background-color: $colour_background_teal;
+    padding: $spacing-s;
+    border-radius: 100px;
+  }
+}

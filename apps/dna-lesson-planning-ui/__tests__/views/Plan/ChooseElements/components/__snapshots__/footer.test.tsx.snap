@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer matches empty snapshot 1`] = `
+<div>
+  <div
+    class="footer flex gap-m items-center"
+  >
+    <div
+      data-testid="DurationCounter"
+    >
+      0
+    </div>
+    <div
+      data-testid="selectedElementList"
+    />
+    <div
+      data-testid="FooterButtonList"
+    >
+      Not clickable
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Footer matches populated snapshot 1`] = `
+<div>
+  <div
+    class="footer flex gap-m items-center"
+  >
+    <div
+      data-testid="DurationCounter"
+    >
+      0
+    </div>
+    <div
+      data-testid="selectedElementList"
+    >
+      <div
+        data-testid="first"
+      />
+      <div
+        data-testid="second"
+      />
+    </div>
+    <div
+      data-testid="FooterButtonList"
+    >
+      Clickable
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmptyButton should render standard button 1`] = `
+<div>
+  <button
+    class="emptyButton undefined"
+    type="button"
+  >
+    EmptyButton
+  </button>
+</div>
+`;

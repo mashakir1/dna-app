@@ -1,0 +1,73 @@
+{
+  "name": "dna-lesson-planning-ui",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/dna-lesson-planning-ui",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/next:build",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "root": "apps/dna-lesson-planning-ui",
+        "outputPath": "dist/apps/dna-lesson-planning-ui"
+      },
+      "configurations": {
+        "development": {
+          "outputPath": "apps/dna-lesson-planning-ui"
+        },
+        "production": {}
+      }
+    },
+    "serve": {
+      "executor": "@nrwl/next:server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "dna-lesson-planning-ui:build",
+        "dev": true
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "dna-lesson-planning-ui:build:development",
+          "dev": true
+        },
+        "production": {
+          "buildTarget": "dna-lesson-planning-ui:build:production",
+          "dev": false
+        }
+      }
+    },
+    "export": {
+      "executor": "@nrwl/next:export",
+      "options": {
+        "buildTarget": "dna-lesson-planning-ui:build:production"
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "apps/dna-lesson-planning-ui/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "updateSnapshots": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "apps/dna-lesson-planning-ui/jest.config.ts",
+        "passWithNoTests": true,
+        "updateSnapshot": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/dna-lesson-planning-ui/**/*.{ts,tsx,js,jsx}"],
+        "fix": true
+      }
+    }
+  },
+  "tags": []
+}

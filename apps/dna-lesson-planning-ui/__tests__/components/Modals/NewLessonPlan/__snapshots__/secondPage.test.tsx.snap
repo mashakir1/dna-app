@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`secondPage matches snapshot 1`] = `
+<div>
+  <div
+    class="newLessonPlan flex column justify-center items-center"
+  >
+    <h6>
+      year-and-subject-choice-title
+    </h6>
+    <div
+      class="spacingM"
+    />
+    <div
+      class=" css-b62m3t-container"
+    >
+      <span
+        class="css-1f43avz-a11yText-A11yText"
+        id="react-select-2-live-region"
+      />
+      <span
+        aria-atomic="false"
+        aria-live="polite"
+        aria-relevant="additions text"
+        class="css-1f43avz-a11yText-A11yText"
+      />
+      <div
+        class="reactSelect__control css-olrejj-control"
+      >
+        <div
+          class="reactSelect__value-container css-kqoj1a-ValueContainer"
+        >
+          <div
+            class="reactSelect__placeholder css-spmjzn-placeholder"
+            id="react-select-2-placeholder"
+          >
+            select-year-placeholder
+          </div>
+          <div
+            class="reactSelect__input-container css-1igp90l-Input"
+            data-value=""
+          >
+            <input
+              aria-autocomplete="list"
+              aria-describedby="react-select-2-placeholder"
+              aria-expanded="false"
+              aria-haspopup="true"
+              autocapitalize="none"
+              autocomplete="off"
+              autocorrect="off"
+              class="reactSelect__input"
+              id="react-select-2-input"
+              role="combobox"
+              spellcheck="false"
+              style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+              tabindex="0"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          class="reactSelect__indicators css-1hb7zxy-IndicatorsContainer"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M5.29289 8.29289C5.68342 7.90237 6.31658 7.90237 6.70711 8.29289L12 13.5858L17.2929 8.29289C17.6834 7.90237 18.3166 7.90237 18.7071 8.29289C19.0976 8.68342 19.0976 9.31658 18.7071 9.70711L12.7071 15.7071C12.3166 16.0976 11.6834 16.0976 11.2929 15.7071L5.29289 9.70711C4.90237 9.31658 4.90237 8.68342 5.29289 8.29289Z"
+              fill="#30CCD6"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </div>
+      </div>
+      <input
+        name="YearSelect"
+        type="hidden"
+        value=""
+      />
+    </div>
+    <div
+      class="spacingS"
+    />
+    <div
+      class="reactSelect--is-disabled css-3iigni-container"
+    >
+      <span
+        class="css-1f43avz-a11yText-A11yText"
+        id="react-select-3-live-region"
+      />
+      <span
+        aria-atomic="false"
+        aria-live="polite"
+        aria-relevant="additions text"
+        class="css-1f43avz-a11yText-A11yText"
+      />
+      <div
+        class="reactSelect__control reactSelect__control--is-disabled css-6rs54r-control"
+      >
+        <div
+          class="reactSelect__value-container css-kqoj1a-ValueContainer"
+        >
+          <div
+            class="reactSelect__placeholder css-19zpqpo-placeholder"
+            id="react-select-3-placeholder"
+          >
+            select-subject-placeholder
+          </div>
+          <div
+            class="reactSelect__input-container css-izxaji-Input"
+            data-value=""
+          >
+            <input
+              aria-autocomplete="list"
+              aria-describedby="react-select-3-placeholder"
+              aria-expanded="false"
+              aria-haspopup="true"
+              autocapitalize="none"
+              autocomplete="off"
+              autocorrect="off"
+              class="reactSelect__input"
+              disabled=""
+              id="react-select-3-input"
+              role="combobox"
+              spellcheck="false"
+              style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+              tabindex="0"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          class="reactSelect__indicators css-1hb7zxy-IndicatorsContainer"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M5.29289 8.29289C5.68342 7.90237 6.31658 7.90237 6.70711 8.29289L12 13.5858L17.2929 8.29289C17.6834 7.90237 18.3166 7.90237 18.7071 8.29289C19.0976 8.68342 19.0976 9.31658 18.7071 9.70711L12.7071 15.7071C12.3166 16.0976 11.6834 16.0976 11.2929 15.7071L5.29289 9.70711C4.90237 9.31658 4.90237 8.68342 5.29289 8.29289Z"
+              fill="#30CCD6"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      class="spacingM"
+    />
+    <span>
+      Start Planning
+    </span>
+  </div>
+</div>
+`;

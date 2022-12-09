@@ -1,0 +1,105 @@
+@import './select.scss';
+@import './fonts/titles.scss';
+@import './fonts/body.scss';
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+
+  &.justify-between {
+    justify-content: space-between;
+  }
+
+  &.justify-center {
+    justify-content: center;
+  }
+
+  &.items-center {
+    align-items: center;
+  }
+
+  &.items-start {
+    align-items: flex-start;
+  }
+
+  &.items-end {
+    align-items: flex-end;
+  }
+
+  &.column {
+    flex-direction: column;
+  }
+
+  &.wrap {
+    flex-wrap: wrap;
+  }
+
+  &.gap {
+    &-xs {
+      gap: $spacing-xs;
+    }
+    &-s {
+      gap: $spacing-s;
+    }
+    &-m {
+      gap: $spacing-m;
+    }
+    &-l {
+      gap: $spacing-l;
+    }
+    &-xl {
+      gap: $spacing-xl;
+    }
+    &-xxl {
+      gap: $spacing-xxl;
+    }
+    &-3xl {
+      gap: $spacing-3xl;
+    }
+  }
+}
+
+.mb {
+  &-xs {
+    margin-bottom: $spacing-xs;
+  }
+  &-s {
+    margin-bottom: $spacing-s;
+  }
+  &-m {
+    margin-bottom: $spacing-m;
+  }
+  &-l {
+    margin-bottom: $spacing-l;
+  }
+  &-xl {
+    margin-bottom: $spacing-xl;
+  }
+  &-xxl {
+    margin-bottom: $spacing-xxl;
+  }
+  &-3xl {
+    margin-bottom: $spacing-3xl;
+  }
+}

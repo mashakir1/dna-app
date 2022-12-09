@@ -1,0 +1,9 @@
+.badge {
+  padding: $spacing-xs $spacing-s;
+  background-color: $colour_light_teal;
+  border-radius: 6px;
+
+  span {
+    color: $colour_navy;
+  }
+}

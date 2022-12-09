@@ -1,0 +1,42 @@
+@import './font-family.scss';
+
+p {
+  font-family: DMSans-Regular;
+  font-weight: 400;
+  font-size: $type-size-p;
+  line-height: 26px;
+
+  &.large {
+    font-size: $type-size-p-large;
+    line-height: 28px;
+  }
+
+  &.small {
+    font-size: $type-size-p-small;
+    line-height: 22px;
+  }
+
+  & > b {
+    font-family: DMSans-Bold;
+    font-weight: 700;
+  }
+
+  & > a {
+    color: $colour_ui_teal;
+    font-family: DMSans-Bold;
+    font-weight: 700;
+  }
+}
+
+button, a {
+  cursor: pointer;
+}
+
+.button, button > span, a > span {
+  font-family: Montserrat-SemiBold;
+  font-weight: 600;
+  font-size: $type-size-s;
+  line-height: 15px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}

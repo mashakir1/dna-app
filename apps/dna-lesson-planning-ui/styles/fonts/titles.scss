@@ -1,0 +1,40 @@
+@import './font-family.scss';
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-Regular', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+  'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+  'Helvetica Neue', sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: $type-size-h1;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: $type-size-h2;
+  line-height: 44px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: $type-size-h3;
+  line-height: 40px;
+}
+
+h4 {
+  font-size: $type-size-h4;
+  line-height: 36px;
+}
+
+h5 {
+  font-size: $type-size-h5;
+  line-height: 32px;
+}
+
+h6 {
+  font-size: $type-size-h6;
+  line-height: 32px;
+}
